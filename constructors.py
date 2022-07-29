@@ -11,7 +11,7 @@ class Animal:
             self.age = args[2]
 
     def make_sound(self, sound):
-        return "The animal is {} and says {}".format(self.name, sound)
+        return f"The animal is {self.name} and says {sound}"
 
 dog=Animal("dog","mammals",17)
 print(dog.name)

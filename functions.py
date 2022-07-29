@@ -23,7 +23,7 @@ def welcome(msg)->str:
 
 
 msg=welcome("Welcome all")
-print(msg + "Please subscribe")
+print(f"{msg}Please subscribe")
 
 
 
