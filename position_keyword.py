@@ -4,7 +4,7 @@ def hello(*args,**kwargs):
 
 #hello("Krish","Naik",age=32,dob=1989)
 
-lst=list(('Krish', 'Naik'))
+lst = ['Krish', 'Naik']
 dict_val={'age': 32, 'dob': 1989}
 
 #hello(*lst,**dict_val)
